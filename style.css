@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+*{
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+header#cabeça{
+background-color: rgba(37, 105, 55, 0.907);
+  text-align: center;
+    font-family: "oswald",Arial, Helvetica, sans-serif;
+    color: white;
+  
+  padding: 10px 10px 30px 30px
+
+  
+  
+}
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 2em;
+           
+        }
+body{
+    background-color:  rgb(92, 239, 132);
+}
+main#principal{
+    text-align: center;
+background-color: white;
+font-family: Arial, Helvetica, sans-serif;
+min-width: 300px;
+max-width: 1000px;
+padding: 10px;
+margin: auto;
+p{
+    text-indent: 20px;
+}
+h2{
+    background-color:rgba(92, 239, 131, 0.494);
+    text-align: start;
+border-radius: 400px;
+text-indent: 20px;
+}
+h1{
+    font-family: "android",Arial, Helvetica, sans-serif;
+    color:rgb(32, 88, 47);
+}
+}
+footer{
+  background-color: rgb(255, 255, 255);
+
+  li{
+    text-align: start;
+  }
+ 
+  
+}
+a{
+    font-family: "android",Arial, Helvetica, sans-serif;
+    color: rgb(32, 88, 47);
+}
+ nav{
+background-color: rgba(3, 9, 5, 0.598);
+padding: 10px;
+}
+nav#fonte> a{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  transition-duration: 0.5s;
+}
+nav >a:hover{
+  background-color:   rgb(92, 239, 132);
+}
+
+aside{
+  background-color:  rgb(81, 222, 119);
+  padding: 10px;
+  border-radius: 10px;
+}
+aside > ul{
+  list-style-position: inside;
+  columns: 2;
+}
